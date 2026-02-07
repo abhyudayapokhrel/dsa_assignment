@@ -14,26 +14,24 @@ void initialize_stack(Stack *s) {
     s->top = -1;
 }
 
-// Check if stack is empty
 bool isEmpty(Stack *s) {
     return s->top == -1;
 }
 
-// Check if stack is full
 bool isFull(Stack *s) {
     return s->top == MAX_SIZE - 1;
-}
 
-// Push element into stack
+  }
+
+// Push
 void push(Stack *s, char ch) {
     if (isFull(s)) {
         printf("Stack Overflow\n");
         return;
     }
     s->arr[++s->top] = ch;
-}
-
-// Pop element from stack
+}  
+// Pop
 char pop(Stack *s) {
     if (isEmpty(s)) {
         printf("Stack Underflow\n");
@@ -41,13 +39,11 @@ char pop(Stack *s) {
     }
     return s->arr[s->top--];
 }
-
-// Check opening bracket
+//check brackets
 bool isOpening(char ch) {
     return (ch == '(' || ch == '[' || ch == '{');
 }
 
-// Check closing bracket
 bool isClosing(char ch) {
     return (ch == ')' || ch == ']' || ch == '}');
 }
@@ -87,7 +83,7 @@ bool areParenthesesBalanced(const char *exp) {
     return isEmpty(&s);
 }
 
-// Display result
+// Display
 void checkExpression(const char *exp) {
     printf("\nExpression: %s\n", exp);
 
