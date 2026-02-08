@@ -1,4 +1,4 @@
-# Reverse Traversal of Linked List using Recursion (C)
+# Reverse Traversal of Linked List using Recursion
 
 ## Overview
 This program prints the elements of a **singly linked list in reverse order** using **recursion**.  

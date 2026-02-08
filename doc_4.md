@@ -1,4 +1,4 @@
-# Doubly Linked List Operations (C)
+# Doubly Linked List Operations
 
 ## Overview
 This program demonstrates basic **doubly linked list operations**:  

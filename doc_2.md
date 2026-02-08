@@ -1,4 +1,4 @@
-# Infix to Postfix Conversion and Evaluation (C)
+# Infix to Postfix Conversion and Evaluation
 
 ## Overview
 This program converts an **infix expression** into a **postfix expression** using stacks.  
